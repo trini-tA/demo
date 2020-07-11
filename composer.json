@@ -1,9 +1,29 @@
 {
     "name": "trini-ta/demo",
-    "require": {},
+    "description": "Demo laravel Package",
+    "keywords": ["laravel", "package"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Trini-t@",
+            "email": "frederic.gacon@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
     "autoload": {
         "psr-4": {
             "Trinita\\Demo\\" : "packages/trinita/demo/src"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.0-dev"
+        },
+        "laravel": {
         }
     }
 }
