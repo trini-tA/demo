@@ -13,18 +13,15 @@
         "php": ">=7.0"
     },
     "autoload": {
-        "psr-0": {
-            "Trinita\\Demo\\" : "src/"
-        },
         "psr-4": {
-            "Trinita\\Demo\\" : "src/"
+            "Trinita\\Demo\\" : "src"
         }
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "extra": {
         "branch-alias": {
-            "dev-master": "1.0.0-dev"
+            "dev-master": "1.0-dev"
         },
         "laravel": {
             "providers": [

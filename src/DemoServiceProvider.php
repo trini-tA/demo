@@ -1,7 +1,8 @@
-<?php namespace Trinita\Demo;
+<?php 
+namespace Trinita\Demo;
 
-use Illuminate\Routing\Router;
 use Illuminate\Support\ServiceProvider;
+
 
 class DemoServiceProvider extends ServiceProvider {
 	/**
@@ -17,9 +18,6 @@ class DemoServiceProvider extends ServiceProvider {
 	 * @return void
 	 */
 	public function register(){
-        $this->app->bind('demo', function ($app) {
-            return new Demo();
-        });
 	}
 
     /**
