@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Trinita\\Demo\\" : "packages/trinita/demo/src"
+            "Trinita\\Demo\\" : "src/"
         }
     },
     "minimum-stability": "dev",
