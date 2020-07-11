@@ -1,4 +1,9 @@
 {
     "name": "trini-ta/demo",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Trinita\\Demo\\" : "packages/trinita/demo/src"
+        }
+    }
 }
