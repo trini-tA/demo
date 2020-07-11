@@ -13,6 +13,9 @@
         "php": ">=7.0"
     },
     "autoload": {
+        "psr-0": {
+            "Trinita\\Demo\\" : "src/"
+        },
         "psr-4": {
             "Trinita\\Demo\\" : "src/"
         }
